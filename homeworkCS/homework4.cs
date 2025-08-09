@@ -155,22 +155,22 @@ namespace HomeworkCS
             }
         }
 
-        static void Main(string[] args)
-        {
-            Fraction f = new Fraction(3, 4);
-            int a = 10;
-            Fraction f1 = f * a;
-            Fraction f2 = a * f;
-            double d = 1.5;
-            Fraction f3 = f + d;
+        //static void Main(string[] args)
+        //{
+        //    Fraction f = new Fraction(3, 4);
+        //    int a = 10;
+        //    Fraction f1 = f * a;
+        //    Fraction f2 = a * f;
+        //    double d = 1.5;
+        //    Fraction f3 = f + d;
 
-            Console.WriteLine($"f = {f}");
-            Console.WriteLine($"f1 = f * a = {f1}");
-            Console.WriteLine($"f2 = a * f = {f2}");
-            Console.WriteLine($"f3 = f + d = {f3}");
+        //    Console.WriteLine($"f = {f}");
+        //    Console.WriteLine($"f1 = f * a = {f1}");
+        //    Console.WriteLine($"f2 = a * f = {f2}");
+        //    Console.WriteLine($"f3 = f + d = {f3}");
 
-            Console.WriteLine($"f правильная дробь: {(f ? "да" : "нет")}");
-            Console.WriteLine($"f1 правильная дробь: {(f1 ? "да" : "нет")}");
-        }
+        //    Console.WriteLine($"f правильная дробь: {(f ? "да" : "нет")}");
+        //    Console.WriteLine($"f1 правильная дробь: {(f1 ? "да" : "нет")}");
+        //}
     }
 }

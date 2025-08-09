@@ -48,6 +48,7 @@
     <Compile Include="homework3-info.cs" />
     <Compile Include="homework3.cs" />
     <Compile Include="homework4.cs" />
+    <Compile Include="homework5.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
